@@ -1,0 +1,75 @@
+/* @import url('/home/nya/Documents/starpage/font/luculent.ttf'); */
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 250px;
+}
+#main_header {
+  text-transform: capitalize;
+  text-align: center;
+}
+html{
+  background-color: #14161B;
+  color: #D5D5D5
+}
+body {
+  font-family: 'Luculent', sans-serif;
+  font-weight: 300;
+  margin: 0px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+  color:#E8A64F;
+
+}
+
+a {
+  margin: auto;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color:#E8A64F;
+}
+
+.tcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+#startpage {
+  color: #E8A64F;
+}
+
+#name {
+  color: #93386B;
+}
+
+.table1 {
+  flex:1;
+}
+
+.table2 {
+  flex:1;
+}
+.table3 {
+  flex:1;
+}
+.table4 {
+  flex:1;
+}
+
+.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 80px;
+}
